@@ -1,0 +1,91 @@
+:root {
+    --yellow: rgb(214,195,48);
+    --main: rgb(27,21,64);
+    --acc: rgb(187,38,193);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.header-custom {
+    background-image: url(./media/bg-1.jpg);
+}
+
+
+.btn-custom {
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+    transition: 0.5s;
+}
+
+.btn-custom:hover {
+    background-color: var(--yellow);
+    color: black;
+}
+
+.bi-calendar2-week {
+    color: var(--yellow);
+}
+
+.data {
+    font-weight: 700;
+}
+
+.section2-custom {
+    background-color: var(--main);
+}
+
+.calendar-form {
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.section3-custom {
+    min-height: 70vh;
+    background-image: url(./media/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-custom {
+    background-color: var(--main);
+    padding: 70px 20px;
+    top: 100px;
+}
+
+
+input {
+    background-color: var(--main);
+    border: none;
+    border-bottom: 1px solid var(--acc);
+}
+
+.btn-custom-form {
+    background-color: var(--yellow);
+}
+
+.section4-custom {
+    background-color:  rgb(17, 13, 44);
+    padding: 100px 20px;
+}
+
+.h2-title {
+    color: var(--yellow);
+}
+
+.section5-custom {
+    background-image: url(./media/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+
